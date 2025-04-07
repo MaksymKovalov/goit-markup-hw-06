@@ -14,7 +14,9 @@ h6,
 p {
   margin: 0;
 }
-
+a {
+  text-decoration: none;
+}
 img {
   display: block;
   max-width: 100%;
@@ -91,7 +93,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 24px 0;
+  padding: 16px 0;
 }
 
 .logo-web {
@@ -646,6 +648,7 @@ img {
 .footer .logo {
   display: inline-block;
   margin-bottom: 16px;
+  padding: 0;
 }
 
 .footer-text {
@@ -653,11 +656,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 268px;
-  text-align: center;
+  max-width: 264px;
+  /* text-align: center; */
 }
-
-.footer-social {
+.logo .footer-social {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -762,7 +764,8 @@ img {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin: unset;
 }
 
 .footer-subscribe-button:hover,
