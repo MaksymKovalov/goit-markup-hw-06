@@ -989,7 +989,6 @@ img {
 .modal-submit-button:focus {
   background-color: #404bbf;
 }
-
 /* Mobile Menu Styles */
 .menu-container {
   position: fixed;
@@ -1296,16 +1295,51 @@ body.no-scroll {
   }
 }
 
-@media screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+@media screen and (min-width: 1158px) {  
+  .footer {  
+    padding: 100px 0;  
+  }  
 
-  .section {
-    padding: 120px 0;
-  }
+  .footer-container {  
+    display: flex;  
+    flex-direction: row;  
+    align-items: flex-start; /* правильное выравнивание сверху */  
+    justify-content: flex-start;  
+    gap: 0;  
+    padding-left: 15px;  
+  }  
+
+  .footer-left,  
+  .footer-social,  
+  .footer-subscribe {  
+    align-items: flex-start; /* для выравнивания текстов и элементов слева */  
+    text-align: left; /* текст слева */  
+  }  
+
+  .footer-left {  
+    margin-right: 120px;  
+  }  
+
+  .footer-social {  
+    margin-right: 80px;  
+  }  
+
+  .footer-social-title,  
+  .footer-subscribe-title,  
+  .footer-text {  
+    text-align: left; /* обязательно, так как ранее заданы были по центру */  
+  }  
+
+  .footer-subscribe-form {  
+    flex-direction: row;  
+    gap: 24px;  
+    justify-content: flex-start;  
+  }  
+
+  .footer-subscribe-label {  
+    width: 264px;  
+  }  
+}  
 
   /* Header */
   .contact-list {
