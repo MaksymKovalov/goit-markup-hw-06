@@ -76,6 +76,7 @@ a {
 
 .header-container {
   display: flex;
+  height: 56px;
   align-items: center;
   justify-content: space-between;
 }
@@ -656,7 +657,6 @@ a {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  text-align: center;
 }
 
 .footer-social {
