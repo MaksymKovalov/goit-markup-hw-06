@@ -142,11 +142,7 @@ a {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    width: 736;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
+ 
   .mobile-menu-container {
     display: none;
   }
@@ -1323,7 +1319,7 @@ body.no-scroll {
     column-gap: 24px;
     row-gap: 72px;
     padding-left: 108px;
-    gap: unset;
+    
   }
 
   .footer-left {
