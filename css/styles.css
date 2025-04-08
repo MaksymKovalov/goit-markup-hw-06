@@ -135,6 +135,10 @@ a {
     margin-left: 0 !important; 
     align-self: center; 
   } 
+  .modal {
+    padding: 16px !important;
+  }
+ 
 }
 
 @media screen and (min-width: 768px) {
@@ -212,6 +216,31 @@ a {
     line-height: 1.17;
     letter-spacing: 0.04em;
   }
+   .footer {  
+    --footer-gap-v: 72px;
+    --footer-gap-h: 24px;
+  }  
+  
+  .footer-container {  
+    gap: var(--footer-gap-v) var(--footer-gap-h) !important;  
+  }  
+  .footer-logo-container,  
+  .footer-social-container,  
+  .footer-subscribe-container {  
+    gap: 24px !important;
+  }  
+  
+   
+  .footer-links,  
+  .footer-social-list {  
+    gap: 16px !important; 
+  }  
+  
+  
+  .footer-subscribe-form {  
+    gap: 24px !important; 
+  }  
+  
   .footer-subscribe-form {  
     flex-direction: row;  
   }  
@@ -995,6 +1024,7 @@ a {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   margin-right: 8px;
+  flex-shrink: 0 !important;
   fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
