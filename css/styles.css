@@ -35,7 +35,7 @@ a {
 
 .container {
   width: 100%;
-  max-width: 288px;
+  max-width: 320px;
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
@@ -94,7 +94,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 0;
+  padding: 16px 0;
 }
 .portfolio-item {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -122,10 +122,9 @@ a {
 
   .logo {
     margin-right: 0;
+    padding: 16px 0;
   }
-  .container {
-    padding: 16px;
-  }
+
   .footer-subscribe-form {
     flex-direction: column;
   }
@@ -197,13 +196,13 @@ a {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-  .container {
-    max-width: 768px;
-  }
   .contact-list {
     display: flex;
     flex-direction: column;
     gap: 12px;
+  }
+  .logo {
+    padding: 24px 0;
   }
 
   .contact-link {
@@ -1199,9 +1198,6 @@ body.no-scroll {
 
   .mobile-contact-phone {
     font-size: 20px;
-  }
-  .header-container {
-    padding: 16px;
   }
 }
 
