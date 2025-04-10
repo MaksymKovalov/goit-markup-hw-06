@@ -94,7 +94,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 16px 0;
 }
 .portfolio-item {
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -112,6 +111,9 @@ a {
 .logo-studio-footer {
   color: #f4f4fd;
 }
+.footer .logo {
+  padding: unset;
+}
 
 /* Desktop Menu */
 @media screen and (max-width: 767px) {
@@ -126,6 +128,9 @@ a {
   }
   .hero-title {
     padding: 0 52px;
+  }
+  .footer .logo {
+    padding: unset;
   }
   .footer-subscribe-form {
     flex-direction: column;
@@ -738,6 +743,7 @@ a {
 .footer .logo {
   display: inline-block;
   margin-bottom: 16px;
+  padding: unset;
 }
 
 .footer-text {
@@ -1403,7 +1409,7 @@ body.no-scroll {
 
   /* Hero */
   .hero {
-    max-width: 1158px;
+    max-width: 1440px;
     padding: 188px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1414,7 +1420,7 @@ body.no-scroll {
 
   @media (min-resolution: 2dppx) {
     .hero {
-      max-width: 1158px;
+      max-width: 1440px;
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
